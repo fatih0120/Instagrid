@@ -16,6 +16,9 @@
 		3DF53DB42726E62F000F8FEB /* InstagridTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DF53DB32726E62F000F8FEB /* InstagridTests.swift */; };
 		3DF53DBE2726E62F000F8FEB /* InstagridUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DF53DBD2726E62F000F8FEB /* InstagridUITests.swift */; };
 		3DF53DC02726E62F000F8FEB /* InstagridUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DF53DBF2726E62F000F8FEB /* InstagridUITestsLaunchTests.swift */; };
+		3DF53DCD2726F4F7000F8FEB /* ThirstyScriptRegular.otf in Resources */ = {isa = PBXBuildFile; fileRef = 3DF53DCC2726F4F7000F8FEB /* ThirstyScriptRegular.otf */; };
+		3DF53DCF2726F589000F8FEB /* Delm-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3DF53DCE2726F589000F8FEB /* Delm-Light.ttf */; };
+		3DF53DD12727065F000F8FEB /* Delm-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3DF53DD02727065F000F8FEB /* Delm-Regular.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +52,9 @@
 		3DF53DB92726E62F000F8FEB /* InstagridUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = InstagridUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3DF53DBD2726E62F000F8FEB /* InstagridUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InstagridUITests.swift; sourceTree = "<group>"; };
 		3DF53DBF2726E62F000F8FEB /* InstagridUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InstagridUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		3DF53DCC2726F4F7000F8FEB /* ThirstyScriptRegular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = ThirstyScriptRegular.otf; sourceTree = "<group>"; };
+		3DF53DCE2726F589000F8FEB /* Delm-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Delm-Light.ttf"; sourceTree = "<group>"; };
+		3DF53DD02727065F000F8FEB /* Delm-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Delm-Regular.ttf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,6 +82,37 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3D7024482742269D0066F587 /* Controler */ = {
+			isa = PBXGroup;
+			children = (
+				3DF53DA02726E62B000F8FEB /* ViewController.swift */,
+			);
+			path = Controler;
+			sourceTree = "<group>";
+		};
+		3D702449274226A70066F587 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				3DF53DA22726E62B000F8FEB /* Main.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		3D70244A274226C70066F587 /* Supporting files */ = {
+			isa = PBXGroup;
+			children = (
+				3DF53D9C2726E62B000F8FEB /* AppDelegate.swift */,
+				3DF53D9E2726E62B000F8FEB /* SceneDelegate.swift */,
+				3DF53DA52726E62F000F8FEB /* Assets.xcassets */,
+				3DF53DA72726E62F000F8FEB /* LaunchScreen.storyboard */,
+				3DF53DCC2726F4F7000F8FEB /* ThirstyScriptRegular.otf */,
+				3DF53DCE2726F589000F8FEB /* Delm-Light.ttf */,
+				3DF53DD02727065F000F8FEB /* Delm-Regular.ttf */,
+				3DF53DAA2726E62F000F8FEB /* Info.plist */,
+			);
+			path = "Supporting files";
+			sourceTree = "<group>";
+		};
 		3DF53D902726E62B000F8FEB = {
 			isa = PBXGroup;
 			children = (
@@ -99,13 +136,9 @@
 		3DF53D9B2726E62B000F8FEB /* Instagrid */ = {
 			isa = PBXGroup;
 			children = (
-				3DF53D9C2726E62B000F8FEB /* AppDelegate.swift */,
-				3DF53D9E2726E62B000F8FEB /* SceneDelegate.swift */,
-				3DF53DA02726E62B000F8FEB /* ViewController.swift */,
-				3DF53DA22726E62B000F8FEB /* Main.storyboard */,
-				3DF53DA52726E62F000F8FEB /* Assets.xcassets */,
-				3DF53DA72726E62F000F8FEB /* LaunchScreen.storyboard */,
-				3DF53DAA2726E62F000F8FEB /* Info.plist */,
+				3D70244A274226C70066F587 /* Supporting files */,
+				3D702449274226A70066F587 /* View */,
+				3D7024482742269D0066F587 /* Controler */,
 			);
 			path = Instagrid;
 			sourceTree = "<group>";
@@ -232,8 +265,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				3DF53DA92726E62F000F8FEB /* LaunchScreen.storyboard in Resources */,
+				3DF53DCD2726F4F7000F8FEB /* ThirstyScriptRegular.otf in Resources */,
 				3DF53DA62726E62F000F8FEB /* Assets.xcassets in Resources */,
+				3DF53DCF2726F589000F8FEB /* Delm-Light.ttf in Resources */,
 				3DF53DA42726E62B000F8FEB /* Main.storyboard in Resources */,
+				3DF53DD12727065F000F8FEB /* Delm-Regular.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -439,11 +475,13 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = XH67738587;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Instagrid/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -455,7 +493,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -466,11 +504,13 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = XH67738587;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Instagrid/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -482,7 +522,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};

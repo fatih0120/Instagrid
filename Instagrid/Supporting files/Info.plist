@@ -2,6 +2,16 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
+	<key>NSPhotoLibraryAddUsageDescription</key>
+	<string>Autoriser l&apos;accès au média pour récuperer une photo </string>
+	<key>NSAppleMusicUsageDescription</key>
+	<string>Autoriser l&apos;accès au média pour récuperer une photo </string>
+	<key>UIAppFonts</key>
+	<array>
+		<string>Delm-Light.ttf</string>
+		<string>ThirstyScriptRegular.otf</string>
+		<string>Delm-Regular.ttf</string>
+	</array>
 	<key>UIApplicationSceneManifest</key>
 	<dict>
 		<key>UIApplicationSupportsMultipleScenes</key>
