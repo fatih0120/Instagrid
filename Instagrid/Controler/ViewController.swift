@@ -35,7 +35,7 @@ class ViewController: UIViewController, UIImagePickerControllerDelegate, UINavig
         instagridView.addGestureRecognizer(panGestureRecognizer)
         
     }
-    
+
     // MARK: - Swipe Management
     
     @objc func swipeGridView(_ sender : UIPanGestureRecognizer){
@@ -84,34 +84,12 @@ class ViewController: UIViewController, UIImagePickerControllerDelegate, UINavig
     }
     
     // MARK: - Button's Action
-    
-    @IBAction func didTouchButton1(_ sender: Any) {
-        selectedButton = buttonImage1
+    @IBAction func didTouchGridButton(_ sender: UIButton) {
+        selectedButton = sender
         selectImageInGallery()
     }
-    @IBAction func didTouchButton2(_ sender: Any) {
-        selectedButton = buttonImage2
-        selectImageInGallery()
-    }
-    @IBAction func didTouchButton3(_ sender: Any) {
-        selectedButton = buttonImage3
-        selectImageInGallery()
-        
-    }
-    @IBAction func didTouchButton4(_ sender: Any) {
-        selectedButton = buttonImage4
-        selectImageInGallery()
-    }
-    
-    @IBAction func didTouchLayoutButton1(_ sender: Any) {
-        doLayoutSelection(for: 1)
-    }
-    @IBAction func didTouchLayoutButton2(_ sender: Any) {
-        doLayoutSelection(for: 2)
-        
-    }
-    @IBAction func didTouchLayoutButton3(_ sender: Any) {
-        doLayoutSelection(for: 3)
+    @IBAction func didTouchLayoutButton(_ sender: UIButton) {
+        doLayoutSelection(for: sender.tag)
     }
     
     // MARK: - Image Picker Management

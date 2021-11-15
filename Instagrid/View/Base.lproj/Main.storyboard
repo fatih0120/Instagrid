@@ -88,7 +88,7 @@
                                                         <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
                                                         <state key="normal" title="" image="Plus"/>
                                                         <connections>
-                                                            <action selector="didTouchButton1:" destination="BYZ-38-t0r" eventType="touchUpInside" id="x3s-B5-9Gx"/>
+                                                            <action selector="didTouchGridButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="AfL-mm-a5h"/>
                                                         </connections>
                                                     </button>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gZG-hG-56W">
@@ -105,7 +105,7 @@
                                                         <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
                                                         <state key="normal" image="Plus"/>
                                                         <connections>
-                                                            <action selector="didTouchButton2:" destination="BYZ-38-t0r" eventType="touchUpInside" id="aNi-vn-pEf"/>
+                                                            <action selector="didTouchGridButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="zWg-hF-3Xr"/>
                                                         </connections>
                                                     </button>
                                                 </subviews>
@@ -135,7 +135,7 @@
                                                         <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
                                                         <state key="normal" image="Plus"/>
                                                         <connections>
-                                                            <action selector="didTouchButton3:" destination="BYZ-38-t0r" eventType="touchUpInside" id="bbp-PO-Rz3"/>
+                                                            <action selector="didTouchGridButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="TPg-Uo-V3x"/>
                                                         </connections>
                                                     </button>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pMA-UP-ewN">
@@ -152,7 +152,7 @@
                                                         <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
                                                         <state key="normal" image="Plus"/>
                                                         <connections>
-                                                            <action selector="didTouchButton4:" destination="BYZ-38-t0r" eventType="touchUpInside" id="VPb-YX-gnW"/>
+                                                            <action selector="didTouchGridButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="K7T-8D-ilT"/>
                                                         </connections>
                                                     </button>
                                                 </subviews>
@@ -197,7 +197,7 @@
                             <stackView opaque="NO" contentMode="scaleToFill" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="dXT-sG-5zh" userLabel="Layout Stack View">
                                 <rect key="frame" x="67" y="757" width="280" height="80"/>
                                 <subviews>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="fill" contentVerticalAlignment="fill" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="EwW-Jf-wEe">
+                                    <button opaque="NO" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="fill" contentVerticalAlignment="fill" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="EwW-Jf-wEe">
                                         <rect key="frame" x="0.0" y="0.0" width="80" height="80"/>
                                         <constraints>
                                             <constraint firstAttribute="width" constant="80" id="7Pb-uq-gI2"/>
@@ -206,10 +206,10 @@
                                         <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
                                         <state key="normal" title="" image="Selected" backgroundImage="Layout 1"/>
                                         <connections>
-                                            <action selector="didTouchLayoutButton1:" destination="BYZ-38-t0r" eventType="touchUpInside" id="CNf-mD-buc"/>
+                                            <action selector="didTouchLayoutButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Utc-yr-rl0"/>
                                         </connections>
                                     </button>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="fill" contentVerticalAlignment="fill" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="I7m-Z4-Nti">
+                                    <button opaque="NO" tag="2" contentMode="scaleToFill" contentHorizontalAlignment="fill" contentVerticalAlignment="fill" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="I7m-Z4-Nti">
                                         <rect key="frame" x="100" y="0.0" width="80" height="80"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="80" id="MUy-8A-2tM"/>
@@ -218,10 +218,10 @@
                                         <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
                                         <state key="normal" image="Selected" backgroundImage="Layout 2"/>
                                         <connections>
-                                            <action selector="didTouchLayoutButton2:" destination="BYZ-38-t0r" eventType="touchUpInside" id="aj2-RT-ljI"/>
+                                            <action selector="didTouchLayoutButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="CZr-ct-Aor"/>
                                         </connections>
                                     </button>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="fill" contentVerticalAlignment="fill" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="f15-Gr-UIj">
+                                    <button opaque="NO" tag="3" contentMode="scaleToFill" contentHorizontalAlignment="fill" contentVerticalAlignment="fill" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="f15-Gr-UIj">
                                         <rect key="frame" x="200" y="0.0" width="80" height="80"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="80" id="RRa-Ha-xsM"/>
@@ -230,7 +230,7 @@
                                         <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
                                         <state key="normal" image="Selected" backgroundImage="Layout 3"/>
                                         <connections>
-                                            <action selector="didTouchLayoutButton3:" destination="BYZ-38-t0r" eventType="touchUpInside" id="NMm-wy-dWh"/>
+                                            <action selector="didTouchLayoutButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Ml0-ZW-xpp"/>
                                         </connections>
                                     </button>
                                 </subviews>
